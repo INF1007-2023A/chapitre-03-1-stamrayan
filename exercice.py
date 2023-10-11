@@ -2,18 +2,20 @@
 # -*- coding: utf-8 -*-
 
 
-import math
+from math import *
+from statistics import *
 
 def square_root(a: float) -> float:
-    return 0.0
+    return sqrt(a)
 
 
 def square(a: float) -> float:
-    return 0.0
+    return a**2
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    x=[a,b,c]
+    return mean(x)
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
